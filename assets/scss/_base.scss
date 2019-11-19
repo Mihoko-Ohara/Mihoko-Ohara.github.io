@@ -1,0 +1,42 @@
+body{
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  background-color: $background-color;
+}
+
+html{
+  width: 100%;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,h2{
+  text-align: center;
+}
+
+.responsive-menu{
+  display: none;
+}
+
+.title{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.fadein {
+  opacity: 0;
+  transform : translate(0, 50px);
+  transition : all 1500ms;
+}
+
+.fadein.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
+}
